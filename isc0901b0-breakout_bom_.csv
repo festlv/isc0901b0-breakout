@@ -1,0 +1,41 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,Manufacturer,Config
+1,"Unpolarized capacitor, small symbol",C_Small,C8,10pF,C_0603_1608Metric,1,~,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C10 C11 C13 C14,1uF,C_0603_1608Metric,4,~,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C6,0.1uF x 50V,C_0603_1608Metric,3,~,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C5 C7 C9 C12 C15,10uF x 25V,C_0603_1608Metric,7,~,GRT188R61E106ME13D,Murata,
+5,"Light emitting diode, small symbol",LED_Small,D1 D3,LED_RED,D_0603_1608Metric,2,~,,,
+6,"Diode, small symbol",D_Small,D2 D4,MBR0520LT1,D_SOD-123,2,~,MBR0520LT1,,
+7,"Ferrite bead, small symbol",Ferrite_Bead_Small,FB1 FB2 FB3 FB4,200R,L_0603_1608Metric,4,~,,,
+8,"Generic connectable mounting pin connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x20_Counter_Clockwise_MountingPin,J2,52991-0408,52991-0408,1,~,52991-0408,,
+9,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J3,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,1,~,,,
+10,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x02,J5,Conn_01x02,JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical,1,~,BM02B-SRSS-TB(LF)(SN),JST,
+11,"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x07_Odd_Even,J4,IDC_02x07,IDC-Header_2x07_P2.54mm_Vertical,1,~,302-S141,On Shore Technology Inc.,
+12,"Inductor, small symbol",L_Small,L1,4.7uH,L_0805_2012Metric,1,~,,,
+13,"N-MOSFET transistor, gate/source/drain",Q_NMOS_GSD,Q1 Q2,"BSS138PW,115",SOT-323_SC-70,2,~,"BSS138PW,115",,
+14,"Resistor, small symbol",R_Small,R1 R11,1K,R_0603_1608Metric,2,~,,,
+15,"Resistor, small symbol",R_Small,R2 R7 R12,10K,R_0603_1608Metric,3,~,,,
+16,"Resistor, small symbol",R_Small,R4,11.5K,R_0603_1608Metric,1,~,,,
+17,"Resistor, small symbol",R_Small,R3,100K,R_0603_1608Metric,1,~,,,
+18,"Resistor, small symbol",R_Small,R10,110K,R_0603_1608Metric,1,~,,,
+19,"Resistor, small symbol",R_Small,R8,499K,R_0603_1608Metric,1,~,,,
+20,"4 resistor network, parallel topology",R_Pack04,RN1 RN2 RN3,22R,R_Array_Concave_4x0603,3,~,EXB-V8V220JV,,
+21,,ADP151,U3,ADP151AUJZ-2.5-R7,TSOT-23-5,1,,ADP151AUJZ-2.5-R7,,
+22,,ADP151,U2,ADP151AUJZ-3.3-R7,TSOT-23-5,1,,ADP151AUJZ-3.3-R7,,
+23,"200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator, MSOP-10",LT3042xMSE,U4,LT3042xMSE,MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf,LT3042EMSE#PBF,,
+24,"Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5",TPS61041DBV,U1,TPS61041DBV,SOT-23-5,1,http://www.ti.com/lit/ds/symlink/tps61040.pdf,TPS61041DBV,,
+
+
+
+
+
+Component Groups:,26
+Component Count:,50
+Fitted Components:,46
+Number of PCBs:,1
+Total components:,46
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,['default']
+BoM Date:,"pirmdiena, 2021. gada 19. aprīlis, 15:43:23"
+Schematic Source:,ics0901b0-breakout.sch
+KiCad Version:,Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1

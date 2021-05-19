@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name isc0901b0-breakout)(type KiCad)(uri ${KIPRJMOD}/isc0901b0-breakout.pretty)(options "")(descr ""))
+)
