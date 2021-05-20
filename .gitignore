@@ -1,0 +1,4 @@
+.idea
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
