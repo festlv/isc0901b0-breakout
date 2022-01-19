@@ -2,3 +2,5 @@
 *.kicad_pcb-bak
 *.sch-bak
 *-cache.lib
+*-backups
+_autosave*

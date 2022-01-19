@@ -64,6 +64,8 @@ these values without access to flash memory contents of Autoliv NV3.
   Observed issues: 
   * even with disabled boost converter, current path was provided by inductor.
   * outline of the PCB was slightly too large and did not fit the enclosure.
-* rev2: fix problems mentioned above
+  * the 2.54mm header with just a single ground pin was very poor choice for an interface that runs at ~73MHz. It does work with ~5cm long cable though, but it's recommended to change to a different connector and add several more ground pins.
 
-**Important note:** the 2.54mm header with just a single ground pin is very poor choice for an interface that runs at ~73MHz. It does work with ~5cm long cable though, but it's recommended to change to a different connector and add several more ground pins.
+* rev2: fix first 2 problems mentioned above
+* rev3: Changed the 2.54mm header with 20pin 0.5mm pitch FPC connector for better signal integrity.
+

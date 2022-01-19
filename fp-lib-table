@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name isc0901b0-breakout)(type KiCad)(uri ${KIPRJMOD}/isc0901b0-breakout.pretty)(options "")(descr ""))
+  (lib (name "isc0901b0-breakout")(type "KiCad")(uri "${KIPRJMOD}/isc0901b0-breakout.pretty")(options "")(descr ""))
+  (lib (name "txu0104bqar")(type "KiCad")(uri "${KIPRJMOD}/txu0104bqar.pretty")(options "")(descr ""))
+  (lib (name "X05C2020TZ")(type "KiCad")(uri "${KIPRJMOD}/X05C2020TZ.pretty")(options "")(descr ""))
 )

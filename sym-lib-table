@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name adp151)(type Legacy)(uri ${KIPRJMOD}/adp151.lib)(options "")(descr ""))
+  (lib (name "adp151")(type "Legacy")(uri "${KIPRJMOD}/adp151.lib")(options "")(descr ""))
+  (lib (name "txu0104")(type "KiCad")(uri "${KIPRJMOD}/txu0104.kicad_sym")(options "")(descr ""))
 )
